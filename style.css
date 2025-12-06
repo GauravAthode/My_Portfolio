@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b5c5dc;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #062d4f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    opacity: 0.97;
+    top: 0;
+    text-decoration-color: aliceblue;
+    .nav-links a{
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: large;
+    }
+    h1{
+        color: rgb(251, 17, 13);
+        margin: 0;
+    }
+
+}
+/* open in mobile*/
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links {
+        margin-top: 8px;
+        display: flex;
+    
+}
+}
+
+main {
+    padding: 10px;
+    section{
+        margin-bottom: 40px;
+        #about-me{
+            background-image: linear-gradient(90deg, rgb(2, 39, 90) 0%, rgba(0, 212, 255, 1) 100%);
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        #projects{
+            background-image: linear-gradient(90deg, rgb(2, 39, 90) 0%, rgba(0, 212, 255, 1) 100%);
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        #contact{
+            background-image: linear-gradient(90deg, rgb(2, 39, 90) 0%, rgba(0, 212, 255, 1) 100%);
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+
+    }
+
+}
